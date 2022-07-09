@@ -1,3 +1,5 @@
+3.The entire area of a circular garden is to be covered with grass by a gardener .
+   the radius of the garden is given by the user input.calculate the area that has to be covered
 #include<stdio.h>
 int main(){
     int r,a;
