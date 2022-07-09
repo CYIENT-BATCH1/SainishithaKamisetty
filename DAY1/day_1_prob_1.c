@@ -1,3 +1,6 @@
+1.//we'll say a number is special if it is a multiple of 11 or if it is one more than a multiple of 11.print "special"
+  if the given non-negative number is special.use the %"mod" operator.
+      
     #include<stdio.h>
     int main(){
     int val;
