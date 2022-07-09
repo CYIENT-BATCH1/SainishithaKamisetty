@@ -1,3 +1,5 @@
+2.//consider a character input from a user and print if it is a vowel or consonants.
+
 #include <stdio.h>
 int main()
 {
