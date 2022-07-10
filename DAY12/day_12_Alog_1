@@ -1,0 +1,8 @@
+1 Find common elements in three sorted arrays, 3 array values are given as input to program.
+ALGORITHM:
+1)Instalize the arrays and integer variables.
+2)Read the three inputs
+3)To compare array we are taking the two for loops.
+4)We are checking this two array elements are same or not.
+5)Take another loop for thrid array and checking the elements are same or not in if condition is satisfy.
+6)print the output.
