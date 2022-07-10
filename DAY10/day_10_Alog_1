@@ -1,0 +1,14 @@
+1. Write a function to store "G_Eng_EngineTemperature_uchar" and "G_Eng_EngineRpm_uint" into " G_Msg_EngineInformation_Byte[5u]" as shown below.
+unsigned char G_Eng_EngineTemperature_uchar = 50u ;
+unsigned int G_Eng_EngineRpm_uint = 1000u;
+unsigned char G_Msg_EngineInformation_Byte[5u];
+
+ALGRORITHM
+1)Instalize the unsigned character and variable and array size of 5.
+2)Read the inputs
+3)Check the bits in EngineTemperature and EngineRpm.
+4)In EngineRPM  9 to 12 bits are assign for array of 0 
+5)In EngineRPM  1 to 8 bits are assign for array of 1
+6)In EngineRPM  0 th bit is assign for array of 2
+7)In EngineTemperature 0 to 7 bits are assign for array of 3
+8)print the EngineTemperature and EngineRpm.
