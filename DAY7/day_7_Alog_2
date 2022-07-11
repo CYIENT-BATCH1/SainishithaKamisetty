@@ -2,8 +2,6 @@
 
 
 ALGORITHM:
-1)Instalise the variable.
-2)Read the unsigned long int to store the 64unit.
-3)Instalise the value to the variables
-4)Then do the operation (b>>1)|(c<<1) to get the output.
-5)Then Check the output.
+1)Read the unsigned long int to store the 64unit.
+2)Then do the OR operation (b>>1)|(c<<1) to get the output.
+3)finally the result will display.
