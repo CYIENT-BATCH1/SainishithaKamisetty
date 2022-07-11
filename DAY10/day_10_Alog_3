@@ -1,0 +1,10 @@
+3. Write a program to Implement ”Selection Sort” using Recursion for given elements 
+(Number elements will vary, so make it as configurable item)
+How Selection sort works is explained below.
+
+ALGORITHM:
+1)Instalize the array and variables.
+2)Read the inputs.
+3)Search for the min element then check the if condition and swap the number.
+4)check with another number and repeat the process.
+5)check the result.
