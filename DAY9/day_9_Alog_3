@@ -1,0 +1,16 @@
+3 Assume that we have a car with 8 seats, and we are monitoring 8 seat belt status 
+in a variable “G_Msg_switchstatus_Byte[]” as shown in pic1. Each switch status is 
+combination of 2 bits as shown in pic2.
+Write status of switches into variable “G_Msg_switchstatus_Byte[]” as below.
+SWITCH1, SWITCH7 status is “faulty type 1 in switch”, SWITCH2, SWITCH5 status is 
+”switch unbuckle”, SWITCH3, SWITCH6 status is “switch buckle”, SWITCH4, SWITCH0 
+status is “faulty type 2 in switch” without disturbing the other bits.
+
+
+ALGORITHM:
+1)Instalize the registers as show in the diagram.
+2)Read the inputs.
+3)Here We are using switch condition to print the cases.
+4)Each case we are taking the for loop to check register until the loop condition fail.
+5)Repeat the steps for every register and every case.
+6)Check the output for every register and every case.
