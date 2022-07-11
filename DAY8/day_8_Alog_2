@@ -1,0 +1,10 @@
+2. Write a program in C to sort an array using Pointer. The sample output must be as below
+
+
+ALGORITHM:
+1)Assign the function argruments and variables.
+2)Read the inputs.
+3)Using for loop we are the checking two numbers which is less then swap the number.
+4)Take the temperary variable to store the swapped values.
+5)Repeat the loop until the condition fail.
+6)check the output.
