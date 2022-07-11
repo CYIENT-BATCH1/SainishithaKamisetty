@@ -1,0 +1,10 @@
+I). Write program to set (1) bits CIS, C2OUT, C1OUT in register “CMCON” if bits CHS3
+, CHS2, CHS1 bits are set to 0x06 in register “ADCON0”
+
+ALGORITHM:
+1)Instalise the character variable.
+2)Declare the value for the varable.
+3)To set register do right 2times should be equal to this bits CHS3, 
+CHS2, CHS1, CHS0 bits are set to 0x06 in register “ADCON0”
+4)Then do 1 left shift with there position(3,6,7)times. so this bits are in set condition.
+5)print the output.
