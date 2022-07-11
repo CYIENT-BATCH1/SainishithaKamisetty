@@ -1,0 +1,9 @@
+3. Write program to clear(0) bits CIS, CM2, CM1, CM0 in register “CMCON” if bits CHS3, 
+CHS2, CHS1, CHS0 bits are set to 0x07 in register “ADCON0”
+
+ALGORITHM:
+
+1)Read the data of CMCON and ADCONO.
+3)clear the  bits CIS, CM2, CM1, CM0 in register “CMCON” 
+3)To clear the bits do right 2times are set the register value 0x07 in register “ADCON0” CHS3,CHS2, CHS1, CHS0.
+4)Then do right shift with above register so this bits are in clear condition.
