@@ -6,5 +6,5 @@ ALGORITHM:
 2)Read the inputs.
 3)To set the register do left shift bit position times should be equal to this bits 
 UA, BF, SMP bits in SSPSTAT register if the value of the register is 0x55
-4)Then do right shift with this register to get the bits clear CKE, P and S  so this bits are in clear condition.
+4)Then do 1 right shift with this register to get the bits clear CKE, P and S  so this bits are in clear condition.
 5)check the output.
