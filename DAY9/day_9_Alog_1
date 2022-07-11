@@ -1,0 +1,10 @@
+1)I. Set the register SSPSTAT value such a way that bit CKE, P and S bit are cleared (0), without disturbing the other bits.
+II). Find out the value of UA, BF, SMP bits in SSPSTAT register if the value of the register is 0x55
+*******************************************************************************/
+ALGORITHM:
+1)Instalise the character variable.
+2)Read the inputs.
+3)To set the register do left shift bit position times should be equal to this bits 
+UA, BF, SMP bits in SSPSTAT register if the value of the register is 0x55
+4)Then do right shift with this register to get the bits clear CKE, P and S  so this bits are in clear condition.
+5)check the output.
